@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "qige.number",
+    "type": "java.lang.String",
+    "description": "A description for 'qige.number'"
+  },
+  {
+    "name": "qige.hello",
+    "type": "java.lang.String",
+    "description": "A description for 'qige.hello'"
+  }
+]}
