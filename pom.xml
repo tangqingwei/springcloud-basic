@@ -12,6 +12,7 @@
 		<module>rabbit-mq-topic</module>
 		<module>rabbit-mq-fanout</module>
 		<module>eureka</module>
+		<module>e-book</module>
 	</modules>
 
 
