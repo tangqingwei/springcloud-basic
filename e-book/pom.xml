@@ -12,6 +12,7 @@
 	<modules>
 		<module>e-book-product</module>
 		<module>e-book-consumer</module>
+		<module>zuul</module>
 	</modules>
 	<dependencies>
 		<dependency>

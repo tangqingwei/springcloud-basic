@@ -21,7 +21,7 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 			<version>2.0.9.RELEASE</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
@@ -33,13 +33,25 @@
 			<scope>test</scope>
 			<version>2.0.9.RELEASE</version>
 		</dependency>
-			
+
 		<dependency>
 			<groupId>com.qige.eureka.server</groupId>
 			<artifactId>e-book-product-api</artifactId>
 			<version>${project.parent.version}</version>
 		</dependency>
-		
+
+		<dependency>
+			<groupId>org.mybatis.spring.boot</groupId>
+			<artifactId>mybatis-spring-boot-starter</artifactId>
+			<version>2.0.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>6.0.5</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
