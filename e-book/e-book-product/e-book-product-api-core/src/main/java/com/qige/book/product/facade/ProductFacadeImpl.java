@@ -14,12 +14,6 @@ public class ProductFacadeImpl implements ProductFacade {
 	@Override
 	public List<Product> listProducts() {
 		System.out.println("#########################################");
-		try {
-			Thread.sleep(6000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-		
 		List<Product> list = new ArrayList<Product>();
 		list.add(new Product(1, "基础篇"));
 		list.add(new Product(2, "进阶篇"));

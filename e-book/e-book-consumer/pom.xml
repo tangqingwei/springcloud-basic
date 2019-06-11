@@ -17,4 +17,7 @@
 		</dependency>
 	</dependencies>
 
+	<modules>
+		<module>e-book-consumer-hystrix</module>
+	</modules>
 </project>
